@@ -1,14 +1,32 @@
 # FPGA-Face-Recognition-OpenFR
 FPGA-based real-time face recognition system
 
-## Overview
-Real-time face recognition system based on FPGA and YOLO.
+## 🚀 Overview
+OpenFR is a real-time face recognition system based on FPGA and YOLO model, designed for edge computing scenarios.
 
-## Features
-- 16 FPS real-time detection
-- INT8 quantized model
-- DMA + AXI architecture
-- Low latency (~61ms)
+## 🧠 Architecture
+- Image Capture (Camera)
+- Hardware Preprocessing (FPGA)
+- YOLO Inference (TinyML)
+- Post-processing (NMS)
+- HDMI Display Output
 
-## Tech
-FPGA / YOLO / Embedded System
+## ⚙️ Features
+- Real-time detection (~16 FPS)
+- Low latency (~61 ms)
+- INT8 quantized YOLO model
+- DMA + AXI high-speed data pipeline
+- Multi-face detection and visualization
+
+## 🔧 Tech Stack
+- FPGA (Ti60F225)
+- Verilog
+- YOLO (TinyML)
+- AXI / DMA Architecture
+
+## 📊 Performance
+|  Metric  | Value |
+|----------|-------|
+|   FPS    |  16   |
+| Latency  | ~61ms |
+| Accuracy | >80%  |
