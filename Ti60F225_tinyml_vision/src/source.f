@@ -1,0 +1,17 @@
+axi/axi_full_to_half_duplex.v
+axi/axi_interconnect/axi_interconnect.v
+axi/axi_interconnect/axi_arbiter.v
+axi/axi_interconnect/axi_priority_encoder.v
+common/common_efx_fifo_wrapper.v
+common/common_reset_ctrl.v
+common/common_simple_dual_port_ram.v
+common/common_true_dual_port_ram.v
+hw_accel/hw_accel.v
+hw_accel/hw_accel_axi4.v
+hw_accel/hw_accel_nearest_neighbor_downscale.v
+hw_accel/hw_accel_pack_rgb_gray.v
+hw_accel/hw_accel_rgb2gray.v
+hw_accel/hw_accel_wrapper.v
+tinyml/defines.v
+tinyml/tinyml_accelerator.v
+tinyml/tinyml_top.v
